@@ -1,7 +1,7 @@
 # SkillsoftReportConsole
 This simple console application illustrates calling the [UD_SubmitReport](https://documentation.skillsoft.com/en_us/skillport/8_0/olsa/index.htm#40247.htm) function to generate a [summary_catalog](https://documentation.skillsoft.com/en_us/skillport/8_0/ah/index.htm#45936.htm) report.
 
-The report that is run is defined in the code in:
+The report that is run is defined in the [code](SkillsoftReportConsole/Program.cs#L23) in:
 
 ~~~~C#
 //--------------------------------------------------------------------------------------------
