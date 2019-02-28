@@ -8,9 +8,10 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>SkillsoftReportConsole</RootNamespace>
     <AssemblyName>SkillsoftReportConsole</AssemblyName>
-    <TargetFrameworkVersion>v4.6.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -35,14 +36,11 @@
     <Reference Include="CommandLine, Version=1.4.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\CommandLine.Net.1.4.0\lib\net45\CommandLine.dll</HintPath>
     </Reference>
-    <Reference Include="Olsa, Version=8.0.7630.0, Culture=neutral, PublicKeyToken=3a967d5220f1f403, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skillport.Olsa.8.0.7630\lib\net40\Olsa.dll</HintPath>
+    <Reference Include="Olsa, Version=8.0.7831.0, Culture=neutral, PublicKeyToken=3a967d5220f1f403, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skillport.Olsa.8.0.7831\lib\net40\Olsa.dll</HintPath>
     </Reference>
-    <Reference Include="Olsa.WCF, Version=1.0.0.0, Culture=neutral, PublicKeyToken=afae20d795a4bded, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skillport.Olsa.8.0.7630\lib\net40\Olsa.WCF.dll</HintPath>
-    </Reference>
-    <Reference Include="Olsa.XmlSerializers, Version=8.0.7630.0, Culture=neutral, PublicKeyToken=3a967d5220f1f403, processorArchitecture=MSIL">
-      <HintPath>..\packages\Skillport.Olsa.8.0.7630\lib\net40\Olsa.XmlSerializers.dll</HintPath>
+    <Reference Include="Olsa.XmlSerializers, Version=8.0.7831.0, Culture=neutral, PublicKeyToken=3a967d5220f1f403, processorArchitecture=MSIL">
+      <HintPath>..\packages\Skillport.Olsa.8.0.7831\lib\net40\Olsa.XmlSerializers.dll</HintPath>
     </Reference>
     <Reference Include="OutputColorizer, Version=1.2.0.0, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\OutputColorizer.1.1.0\lib\net45\OutputColorizer.dll</HintPath>
