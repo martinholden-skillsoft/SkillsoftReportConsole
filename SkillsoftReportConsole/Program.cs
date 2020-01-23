@@ -1,10 +1,13 @@
 ﻿using CommandLine;
 using Olsa;
+using Olsa.WCF.Extensions;
 using SkillsoftReportConsole.Models;
 using System;
 using System.Collections.Generic;
 using System.Net;
 using System.ServiceModel;
+using System.ServiceModel.Channels;
+using System.Text;
 
 namespace SkillsoftReportConsole
 {
